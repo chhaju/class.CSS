@@ -1,0 +1,20 @@
+ul{
+list-style-type: square;
+font-size: 50px;
+color: red;
+}
+a{
+    text-decoration: none;
+}
+a:visited{
+    color: green;
+}
+a:hover{
+    color: palevioletred;
+}
+a:active{
+    color: yellow;
+}
+button:hover{
+    color: yellowgreen;
+}

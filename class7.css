@@ -1,0 +1,23 @@
+.container{
+    margin: 20px;
+    border: 2px solid black;
+    
+}
+.items{
+    width: 100px;
+    height: 100px;
+}
+.item1{
+background-color: rgb(220, 52, 52);
+/*position: absolute;*/
+position: static;
+}
+.item2{
+    background-color: rgb(40, 53, 236);
+}
+.item3{
+    background-color: rgb(249, 209, 75);
+}
+.item4{
+    background-color: rgb(231, 17, 195);
+}

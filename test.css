@@ -1,0 +1,170 @@
+
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 0;
+        }
+
+        .header {
+            display: flex;
+            overflow: hidden;
+            background-color: rgb(194, 166, 230);
+            padding: 10px 10px;
+            text-decoration: none;
+        }
+
+        .header a {
+            float: left;
+            color: black;
+            text-align: center;
+            padding: 20px;
+            text-decoration: none;
+            font-size: 30px;
+            line-height: 25px;
+            border-radius: 4px;
+        }
+
+        .me {
+            display: flex;
+            margin-left: auto; 
+        }
+
+        .rounded-pill {
+            max-width: 150px;
+            max-height: 70px;
+            width: auto;
+            height: auto;
+        }
+
+        .header a:hover {
+            background-color: rgb(167, 83, 151);
+            color: rgb(178, 166, 175);
+        }
+
+        .header-right {
+            margin-left: auto; 
+        }
+
+        @media screen and (max-width: 500px) {
+            .header a {
+                float: none;
+                display: block;
+                text-align: left;
+            }
+
+            .header-right {
+                float: none;
+                margin-left: auto; 
+            }
+        }
+
+        .line {
+            background-color: rgb(215, 24, 133);
+            overflow: hidden;
+            padding: 5px 10px;
+            font-size: 20px;
+            font-weight: bold;
+            color: white; 
+        }
+
+        .img {
+            padding: 10px 0; 
+            width: 100%; 
+            height: auto;
+            display: block;
+            margin-left: 300px;
+        }
+
+        h1 {
+            padding: 2px 3px; 
+            color: rgb(235, 225, 114);
+            font-family: cursive;
+        }
+
+        span {
+            color: rgb(87, 214, 14);
+            font-family: cursive;
+        }
+
+        .main {
+            margin: auto;
+            width: 60%;
+            border: 3px solid green;
+            padding: 10px;
+            float: right;
+            height: 300px;
+        }
+
+        .card{
+            display: flex;
+            margin-top: 22px;
+            width: 20%;
+            height: 500px;
+            float: left;
+        }
+
+        .left{
+            width: 40%;
+            height: 500px;
+            float: left;
+            padding: 80px 10px;
+        }
+        .left img{
+            width: 550px;
+            margin-inline: 22px;
+            float: right;
+            padding: 30px 10px;
+        }
+        
+        .card .img img{
+            width: 90px;
+            margin-left: 59;
+            margin-top: 30px;
+        }
+        .card .right{
+            margin-top: 11px;
+        }
+        .right h1{
+            margin-top: 11px;
+        }
+        .rightn i{
+            margin-top: 11px;
+        }
+        .right h4{
+            margin-top: 11px;
+        }
+        .right  p{
+            margin-top: 11px;
+        }
+        .bn{
+            width: 200px;
+            height: 50px;
+            background-color: rgb(222, 179, 101);
+            color: white;
+            font-size: 25px;
+            border: none;
+            margin-top: 22px;
+            font-weight: 600;
+            margin-left: 1px;
+        }
+        .bn:hover{
+            background-color: rgb(101, 222, 166);
+            cursor: pointer;
+        }
+        .right{
+            margin-top: 60px; 
+        }
+        .footer{
+            background-color: rgb(165, 160, 160);
+            height: 90px;
+            margin-top: 100px;
+            text-align: center;
+            font-size: 25px;
+            padding-top: 30px;
+
+        }
+
+        

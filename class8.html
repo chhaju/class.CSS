@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gride</title>
+</head>
+<style>
+    body{
+        margin: 0;
+        padding: 0;
+    }
+    .container{
+        width: 700px;
+        background-color: whitesmoke;
+        margin: 50px;
+        display: grid;
+        grid-template-columns: /*200px 300px*/ /* 1fr 1fr 1fr*/ repeat(2,150px) 1fr;
+        grid-template-rows: 150px 100px 100px;
+        /*grid-row-gap: 10px;
+        grid-column-gap:20px;*/
+        gap: 10px 20px;
+    }
+    .items{
+        color: white;
+    }
+    .item-1{
+        background-color: red;
+        /*grid-row-start: 2;
+        grid-row-end: 2; 
+        grid-row: 2/3; short hand for grid-row-start and end
+        grid-row-end
+
+        grid-row-start: 2;
+        grid-column-start: 3;*/
+        grid-row: 2/3;
+        grid-column: ;
+        /*grid-area: 2/3/3/4;*/
+
+    }
+    .item-2{
+        background-color: green;
+        grid-row: 2 / 3;
+        grid-column: 1/4;
+
+    }
+    .item-3{
+        background-color: rgb(47, 22, 240);
+    }
+    .item-4{
+        background-color: rgb(87, 225, 23);
+    }
+    .item-5{
+        background-color: rgb(222, 26, 219);
+    }
+    .item-6{
+        background-color: rgb(210, 169, 32);
+       /* grid-row-start: 1;*/
+      /* grid-area: 2/1/2/3;*/
+      grid-row: 1/2;
+      grid-column: 1/span 3;
+      grid-column: 1/ span 1;
+
+    }
+    .item-7{
+        background-color: rgb(75, 45, 85);
+    }
+    .item-8{
+        background-color: rgb(55, 210, 227);
+    }
+    .item-9{
+        background-color: rgb(97, 22, 22);
+    }
+
+</style>
+<body>
+    <div class="container">
+        <div class="items item-1">First</div>
+        <div class="items item-2">Second</div>
+        <div class="items item-3">Third</div>
+        <div class="items item-4">Fourth</div>
+        <div class="items item-5">Fifth</div>
+        <div class="items item-6">sixth</div>
+        <div class="items item-7">Sevnth</div>
+        <div class="items item-8">yeath</div>
+        <div class="items item-9">nanth</div>
+    </div>
+    
+</body>
+</html>

@@ -1,0 +1,215 @@
+
+    .container,.last {
+      background-color: rgb(43, 148, 147);
+    }
+    .header1{
+      background-color: rgb(20, 67, 59);
+      height: 70px;
+      width: 100%;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      position: fixed;
+      top:0;
+      left:0;
+      z-index: 1000;
+    }
+
+    .div1,.div2,.div3 {
+      border: 2px ridge rgb(219, 11, 209);
+      height: 200px;
+      width: 200px; 
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      
+    }
+    .box,.box2 {
+      border: 1px ridge rgb(217, 166, 24);
+      width: 60px;
+      height: 60px;
+      border-radius: 4px;
+      display: flex;
+      align-items: center;
+    }
+    .sec1,.sec3,.sec4,.sec6,.sec7,.sec9,.main-1,.main-3,.main-4,.main-6,.main-7,.main-9,.main-10,.box {
+      background-color: rgb(10, 35, 30);
+    }
+    .sec2,.sec5,.sec8,.main-2,.main-5,.main-8 {
+      background-color: rgb(87, 91, 90);
+    }
+    .main2 {
+      display: flex;
+      justify-content: space-evenly;
+    }
+    .sentence,.sentence2 {
+      display: flex;
+      justify-content: center;
+      padding-top: 10px;
+    }
+    .sentence{
+      margin-top: 70px;
+    }
+    li,p,div {
+      color: rgb(255, 255, 255);
+    }
+    .container2{
+      border: 3px solid black;
+    }
+    .box-2 {
+      display: flex;
+      justify-content: space-evenly;
+    }
+    .main0,.mainu,.mainc,.lorem{
+      border: 2px solid rgb(34, 20, 234);
+      height: 200px;
+      width: 200px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      
+    }
+    .sentence2,.scroll,.lastp{
+      color: black;
+      padding-top: 15px;
+    }
+    .lorem{
+      overflow-y: scroll;
+
+    }
+    .main-10 {
+      position: absolute;
+      top: 690px;
+    }
+    .div11,.lastp{
+      display: flex;
+      justify-content: center;
+      margin-top: 5px;
+    }
+   
+    .main-5 {
+      position: relative;
+      top: 20px;
+      left: 20px;
+    }
+    .main-8 {
+      position: absolute;
+      right: 310px;
+      top: 545px;
+    }
+    .under{
+      padding-top: 45px;
+      display: flex;
+      flex-direction: column;
+    }
+  
+    .col {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    .row1,.row2{
+      display: flex;
+      justify-content: center;
+    }
+    .gap{
+      display: flex;
+      justify-content: center;
+    }
+    .tab{
+      display: flex;
+      justify-content: center;
+    }
+    .items_9 {
+      padding-left: 160px;
+      padding-right:160px;
+    }
+    .flexy{
+      display: flex;
+      justify-content: center;
+    }
+   
+    .lastbox {
+      display: flex;
+      justify-content: center;
+    }
+    .items_18 {
+      margin-right: 7px;
+    }
+    footer{
+      background-color: rgb(10, 63, 96);
+      height: 70px;
+    }
+    img {
+      border-radius: 50%;
+      height: 30px;
+      width: 30px;
+      padding: 10px;
+    }
+    .img {
+      display: flex;
+      justify-content: center;
+    }
+  
+     
+    .a {
+      background-color: rgb(119, 143, 11);
+      height: 40px;
+      width: 55px;
+      display: flex;
+      align-items: center;
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      color: black;
+      text-decoration: none;
+    }
+    
+   .box{
+    margin: 2px;
+   }
+   .items_12,.items_13,.items_14,.items_15,.items_16{
+      margin-left: 50px;
+      margin-right: 50px;
+    }
+    .items_5,.items_6{
+      margin-left: 265px;
+      margin-right: 265px;
+    }
+    button:hover, .a:hover{
+      background-color: rgb(249, 230, 130);
+    }
+    .home:hover{
+      color: rgb(244, 204, 30);
+    }
+    img:hover{
+      background-color: rgb(97, 78, 247);
+    }
+    .home{
+      color: rgb(200, 137, 27);
+    }
+    button{
+      border: 5px ridge rgb(255, 255, 255);
+      background-color: rgba(232, 199, 109, 0.764);
+    }
+    .main2{
+      margin-top: 100px;
+    }
+    .div2 .sec5{
+      position: absolute;
+      left: 555px;
+      bottom: 290px;
+    }
+    .div3 .sec8{
+      position: absolute;
+      left: 1055px;
+      bottom: 290px;
+    }
+    
+    
+
+
+
+  

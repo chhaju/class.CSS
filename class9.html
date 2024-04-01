@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            display:flex;
+             justify-content: center;
+             align-items: center;
+        }
+        .box{
+            height: 100px;
+            width: 100px;
+            border: 2px solid black;
+            background-color: pink;
+            /*transform: rotate(60deg);*/
+        }
+        .box:hover{
+            /*transform: skew(30deg) ;*/
+            width: 300px;
+            height: 500px;
+           /* transition-property: all;
+            transition-duration: 10s;
+            transition-timing-function: ease;*/
+           /* transition-delay: 5s;*/
+           transition: all 10s linear 5s;
+        }
+
+        /*.heart{
+            background: red ;
+            width: 300px;
+        }*/
+        
+    </style>
+</head>
+<body>
+    <!--Trasform--> <!--Rotate, Scale, Translate(Diff Posyion) Skew.-->
+    <!--Transition-->
+    <!--Animation-->
+    
+    <div class="container">
+        <div class="box"></div>
+    </div>
+
+</body>
+</html>
